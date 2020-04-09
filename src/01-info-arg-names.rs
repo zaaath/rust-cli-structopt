@@ -9,8 +9,8 @@ struct Opt {
     #[structopt(short)]
     cutoff: i32,
 
-    #[structopt(short, long)]
-    message: String
+    #[structopt(short = "m", long = "message")]
+    text: String
 }
 
 fn main() {
