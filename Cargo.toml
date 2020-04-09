@@ -10,20 +10,24 @@ name = "00-simple-two-args"
 path = "src/00-simple-two-args.rs"
 
 [[bin]]
-name = "01-default-conditional"
-path = "src/01-default-conditional.rs"
+name = "01-info-arg-names"
+path = "src/01-info-arg-names.rs"
 
 [[bin]]
-name = "02-subcommands"
-path = "src/02-subcommands.rs"
+name = "02-default-conditional"
+path = "src/02-default-conditional.rs"
 
 [[bin]]
-name = "03-enum-formatting"
-path = "src/03-enum-formatting.rs"
+name = "03-subcommands"
+path = "src/03-subcommands.rs"
 
 [[bin]]
-name = "04-input-output-files"
-path = "src/04-input-output-files.rs"
+name = "04-enum-formatting"
+path = "src/04-enum-formatting.rs"
+
+[[bin]]
+name = "05-input-output-files"
+path = "src/05-input-output-files.rs"
 
 [dependencies]
 structopt = { version = "0.3", features = [ "paw" ] }
