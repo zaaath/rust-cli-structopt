@@ -25,10 +25,6 @@ path = "src/03-subcommands.rs"
 name = "04-enum-formatting"
 path = "src/04-enum-formatting.rs"
 
-[[bin]]
-name = "05-input-output-files"
-path = "src/05-input-output-files.rs"
-
 [dependencies]
 structopt = { version = "0.3", features = [ "paw" ] }
 paw = "1.0"
