@@ -6,10 +6,10 @@ struct Opt {
     #[structopt(long)]
     title: String,
 
-    #[structopt(short, default_value = "420")]
+    #[structopt(short, default_value = "420", help = "Cutoff frequency")]
     cutoff: i32,
 
-    #[structopt(short, required_if("cutoff", "0"))]
+    #[structopt(short, required_if("cutoff", "0"), help = "Amplification factor")]
     amplification: Option<i32>,
 
     #[structopt(short = "m", long = "message")]

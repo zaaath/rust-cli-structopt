@@ -6,7 +6,7 @@ struct Opt {
     #[structopt(long)]
     title: String,
 
-    #[structopt(short)]
+    #[structopt(short, help = "Cutoff frequency")]
     cutoff: i32,
 
     #[structopt(short = "m", long = "message")]
