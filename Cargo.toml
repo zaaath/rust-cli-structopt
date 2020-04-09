@@ -14,8 +14,8 @@ name = "01-info-arg-names"
 path = "src/01-info-arg-names.rs"
 
 [[bin]]
-name = "02-default-conditional"
-path = "src/02-default-conditional.rs"
+name = "02-default-optional-conditional"
+path = "src/02-default-optional-conditional.rs"
 
 [[bin]]
 name = "03-subcommands"
