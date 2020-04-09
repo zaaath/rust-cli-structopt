@@ -15,5 +15,5 @@ struct Opt {
 
 fn main() {
     let opt = Opt::from_args();
-    println!("title = {:?}", opt);
+    println!("opt = {:?}", opt);
 }
